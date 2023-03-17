@@ -7,5 +7,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 # 指定端口 --port=8080，不指定的话默认为5000
-CMD ["flask", "--app", "flask-server", "run", "--host=0.0.0.0"]
+CMD ["flask", "--app", "flask-server", "run", "--port=8889", "--host=0.0.0.0"]
 
