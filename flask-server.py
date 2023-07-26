@@ -22,7 +22,7 @@ def index():
     """
     Go to localhost:5000 to see a message
     """
-    return f'This is a website.', 200, None
+    return f'This is a website fot testing', 200, None
 
 
 @app.route("/myhook", methods=['POST'])
